@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -117,6 +118,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Error Events\Error.aspx" />
+    <Content Include="Error Events\WebForm1.aspx" />
     <Content Include="ExceptionHandling.aspx" />
     <Content Include="page navigation techniques\WebForm1.aspx" />
     <Content Include="page navigation techniques\WebForm2.aspx" />
@@ -152,6 +155,7 @@
     <Content Include="ValidationControl\RequiredFieldValidator.aspx" />
     <Content Include="ValidationControl\ValidationSummary.aspx" />
     <Content Include="WizardControl.aspx" />
+    <Content Include="Writing custom tracing messages.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="HiddenFields.aspx" />
     <Content Include="ListBox.aspx" />
@@ -236,6 +240,20 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error Events\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error Events\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error Events\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error Events\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ExceptionHandling.aspx.cs">
       <DependentUpon>ExceptionHandling.aspx</DependentUpon>
@@ -464,6 +482,13 @@
     </Compile>
     <Compile Include="WizardControl.aspx.designer.cs">
       <DependentUpon>WizardControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Writing custom tracing messages.aspx.cs">
+      <DependentUpon>Writing custom tracing messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Writing custom tracing messages.aspx.designer.cs">
+      <DependentUpon>Writing custom tracing messages.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
