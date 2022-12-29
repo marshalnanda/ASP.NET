@@ -121,6 +121,9 @@
     <Content Include="Error Events\Error.aspx" />
     <Content Include="Error Events\WebForm1.aspx" />
     <Content Include="ExceptionHandling.aspx" />
+    <Content Include="loading page dynamically.aspx" />
+    <Content Include="Months.xml" />
+    <Content Include="Navigating to a specific month and an year.aspx" />
     <Content Include="page navigation techniques\WebForm1.aspx" />
     <Content Include="page navigation techniques\WebForm2.aspx" />
     <Content Include="page navigation techniques\WindowOpen\WebForm1.aspx" />
@@ -156,6 +159,7 @@
     <Content Include="ValidationControl\ValidationSummary.aspx" />
     <Content Include="WizardControl.aspx" />
     <Content Include="Writing custom tracing messages.aspx" />
+    <Content Include="Year.xml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="HiddenFields.aspx" />
     <Content Include="ListBox.aspx" />
@@ -261,6 +265,20 @@
     </Compile>
     <Compile Include="ExceptionHandling.aspx.designer.cs">
       <DependentUpon>ExceptionHandling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loading page dynamically.aspx.cs">
+      <DependentUpon>loading page dynamically.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loading page dynamically.aspx.designer.cs">
+      <DependentUpon>loading page dynamically.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Navigating to a specific month and an year.aspx.cs">
+      <DependentUpon>Navigating to a specific month and an year.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Navigating to a specific month and an year.aspx.designer.cs">
+      <DependentUpon>Navigating to a specific month and an year.aspx</DependentUpon>
     </Compile>
     <Compile Include="page navigation techniques\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
