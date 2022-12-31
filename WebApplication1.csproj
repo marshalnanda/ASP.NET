@@ -108,6 +108,10 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Bulleted.aspx" />
+    <Content Include="Caching\Caching multiple responses.aspx" />
+    <Content Include="Caching\Controlling  caching through code.aspx" />
+    <Content Include="Caching\Fragment caching.aspx" />
+    <Content Include="Caching\UCProductsControl.ascx" />
     <Content Include="calendar.aspx" />
     <Content Include="CascadingDropDown.aspx" />
     <Content Include="checkboxlist.aspx" />
@@ -118,6 +122,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Data\Blank diagram.png" />
     <Content Include="Error Events\Error.aspx" />
     <Content Include="Error Events\WebForm1.aspx" />
     <Content Include="ExceptionHandling.aspx" />
@@ -137,6 +142,7 @@
     <Content Include="Techniques to send data from one webform to another\Query strings\WebForm2.aspx" />
     <Content Include="Techniques to send data from one webform to another\sessionState\WebForm1.aspx" />
     <Content Include="Techniques to send data from one webform to another\sessionState\WebForm2.aspx" />
+    <Content Include="Upload and Download.aspx" />
     <Content Include="ValidationControl\CustomValidator.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -160,6 +166,7 @@
     <Content Include="WizardControl.aspx" />
     <Content Include="Writing custom tracing messages.aspx" />
     <Content Include="Year.xml" />
+    <Content Include="Data\nov bill.pdf" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="HiddenFields.aspx" />
     <Content Include="ListBox.aspx" />
@@ -216,6 +223,34 @@
     </Compile>
     <Compile Include="Bulleted.aspx.designer.cs">
       <DependentUpon>Bulleted.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caching\Caching multiple responses.aspx.cs">
+      <DependentUpon>Caching multiple responses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caching\Caching multiple responses.aspx.designer.cs">
+      <DependentUpon>Caching multiple responses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caching\Controlling  caching through code.aspx.cs">
+      <DependentUpon>Controlling  caching through code.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caching\Controlling  caching through code.aspx.designer.cs">
+      <DependentUpon>Controlling  caching through code.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caching\Fragment caching.aspx.cs">
+      <DependentUpon>Fragment caching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caching\Fragment caching.aspx.designer.cs">
+      <DependentUpon>Fragment caching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caching\UCProductsControl.ascx.cs">
+      <DependentUpon>UCProductsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caching\UCProductsControl.ascx.designer.cs">
+      <DependentUpon>UCProductsControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="calendar.aspx.cs">
       <DependentUpon>calendar.aspx</DependentUpon>
@@ -370,6 +405,13 @@
     </Compile>
     <Compile Include="Techniques to send data from one webform to another\sessionState\WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upload and Download.aspx.cs">
+      <DependentUpon>Upload and Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload and Download.aspx.designer.cs">
+      <DependentUpon>Upload and Download.aspx</DependentUpon>
     </Compile>
     <Compile Include="ValidationControl\CustomValidator.aspx.cs">
       <DependentUpon>CustomValidator.aspx</DependentUpon>
