@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="autocomplete\WebForm1.aspx" />
     <Content Include="Bulleted.aspx" />
     <Content Include="Caching\Caching multiple responses.aspx" />
     <Content Include="Caching\Controlling  caching through code.aspx" />
@@ -127,6 +128,8 @@
     <Content Include="Error Events\WebForm1.aspx" />
     <Content Include="ExceptionHandling.aspx" />
     <Content Include="loading page dynamically.aspx" />
+    <Content Include="master pages\WebForm1.aspx" />
+    <Content Include="master pages\WebForm2.aspx" />
     <Content Include="Months.xml" />
     <Content Include="Navigating to a specific month and an year.aspx" />
     <Content Include="page navigation techniques\WebForm1.aspx" />
@@ -163,10 +166,12 @@
     <Content Include="ValidationControl\RegularExpressionValidator.aspx" />
     <Content Include="ValidationControl\RequiredFieldValidator.aspx" />
     <Content Include="ValidationControl\ValidationSummary.aspx" />
+    <Content Include="autocomplete\WebService1.asmx" />
     <Content Include="WizardControl.aspx" />
     <Content Include="Writing custom tracing messages.aspx" />
     <Content Include="Year.xml" />
     <Content Include="Data\nov bill.pdf" />
+    <Content Include="master pages\Site1.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="HiddenFields.aspx" />
     <Content Include="ListBox.aspx" />
@@ -217,6 +222,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="autocomplete\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="autocomplete\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Bulleted.aspx.cs">
       <DependentUpon>Bulleted.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -307,6 +319,27 @@
     </Compile>
     <Compile Include="loading page dynamically.aspx.designer.cs">
       <DependentUpon>loading page dynamically.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master pages\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master pages\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master pages\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master pages\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master pages\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master pages\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Navigating to a specific month and an year.aspx.cs">
       <DependentUpon>Navigating to a specific month and an year.aspx</DependentUpon>
@@ -535,6 +568,10 @@
     </Compile>
     <Compile Include="DropDownList.aspx.designer.cs">
       <DependentUpon>DropDownList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="autocomplete\WebService1.asmx.cs">
+      <DependentUpon>WebService1.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="WizardControl.aspx.cs">
       <DependentUpon>WizardControl.aspx</DependentUpon>

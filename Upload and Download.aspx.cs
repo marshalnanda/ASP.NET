@@ -20,8 +20,7 @@ namespace WebApplication1
             if (FileUpload1.HasFile)
             {
                 string fileName = FileUpload1.FileName;
-                FileUpload1.PostedFile
-                    .SaveAs(Server.MapPath("~/Data/") + fileName);
+                FileUpload1.PostedFile.SaveAs(Server.MapPath("~/Data/") + fileName);
             }
 
             DataTable dt = new DataTable();
@@ -32,8 +31,7 @@ namespace WebApplication1
             foreach (string strfile in Directory.GetFiles(Server.MapPath("Data")))
             {
                 FileInfo fi = new FileInfo(strfile);
-                dt.Rows.Add(fi.Name, fi.Length.ToString(),
-                    GetFileTypeByExtension(fi.Extension));
+                dt.Rows.Add(fi.Name, fi.Length.ToString(),GetFileTypeByExtension(fi.Extension));
             }
 
             GridView1.DataSource = dt;
